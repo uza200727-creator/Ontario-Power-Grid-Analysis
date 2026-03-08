@@ -126,9 +126,7 @@ if __name__ == "__main__":
 
 #Displaying our data 
     print("\n" + "=" * 55)
-    print(f"Gas at 2:00 AM (Ontario) last night:")
-    print(f"Last night date was: {last_date.isoformat()}")
-    print("-" * 55)
+   
 
     if last_total is not None:
         print(f"{last_total:,.2f} MW")

@@ -54,7 +54,7 @@ def run_2021_audit():
         # Filter data table for gas and output
         df_gas_output = df[(df["Fuel Type"] == "GAS") & (df["Measurement"] == "OUTPUT")].copy()
         if df_gas_output.empty:
-            print("⚠️ No GAS+OUTPUT rows found after filtering.")
+            print("No GAS+OUTPUT rows found after filtering.")
             print("Fuel Type top values:", df["Fuel Type"].value_counts().head(10))
             print("Measurement top values:", df["Measurement"].value_counts().head(10))
             return None
