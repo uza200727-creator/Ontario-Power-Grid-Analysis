@@ -27,6 +27,12 @@ I also visualize the comaprison (using the last 7 nights from March 8, 2026) usi
 
 An extra visualization for comparison available is the makeup for the Ontario grid at 3:50 AM, March 8, 2026; the bar graph for visualization is available to view.
 
+## Current Generation Mix
+![Generation Mix](generation_mix_march82026.png)
+
+## Gas Output: Then vs Now
+![Gas Comparison](gas_then_vs_now_march82026.png)
+
 ## Potential Uses:  
 
 This program is quite basic, but its overall function (analyzing the energy grid and using that to simulate a battery that only charged if the grid is operating off of more clean energy than usual) could be expanded to much larger usecases. For example, a transit system with a fleet of electric buses could be made even more efficient and environmentally conscious by monitoring when the grid is cleanest, and then charging the buses accordingly. This would usually be around late night (past 12 AM) when energy demand from homes is lowest and fossil fuel usage is less than normal.
