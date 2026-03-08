@@ -23,11 +23,9 @@ The URLs for the websites where data is taken from, are linked below:
 
 In the last-night-gen-gen.py and audit-history.py files, I compare the gas output of the Ontario electricity grid at 2 AM in February 2021, and now (by using the last 7 nights) by scraping the gas generator output data for all those dates from the IESO website. By doing this, I was able to find out that the average gas output in February 2021 in Ontario was 1,074.96 MW. Meanwhile, the average gas output over the last 7 nights (running the program on February 26, 2026) was 4,371.00 MW. I believe this increase is partly a result of a natural increase in usage of the electricity grid over time, but can also be attributed to the increase of data centers that run 24/7. The main increase in these data centers is caused by the increasing usage of artificial intelligence and the electricity needed to power that usage. In my opinion, this shows that the increasing load on the electricity grid caused by usage of artificial intelligence is an issue impacting the environment (due to the increased usage of fossil fuels requed) that requires serious efforts to resolve.
 
-I also visualize the comaprison (using the last 7 nights from March 8, 2026) using the matplotlib library, and the associated bar graph is available to view. 
+Below are the visualizations for the Ontario grid generation mix at 3:50 AM, March 8, 2026, and the visualization for the comparison of gas output I talk about above.
 
-An extra visualization for comparison available is the makeup for the Ontario grid at 3:50 AM, March 8, 2026; the bar graph for visualization is available to view.
-
-## Current Generation Mix
+## Ontario Grid Generation Mix
 ![Generation Mix](generation_mix_march82026.png)
 
 ## Gas Output: Then vs Now
