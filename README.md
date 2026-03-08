@@ -1,11 +1,13 @@
 
 # Ontario Grid Analyzer and Clean Battery Simulator
 
-**Goal:** To create a program that scrapes data from Ontario's electricity grid to analyze the makeup of the types of energy used to power the province over the last hour, and use that data to operate a virtual battery controller simulation that charges based on whether or not the grid is using more or less fossil fuels than average. 
+## Goal: To create a program that scrapes data from Ontario's electricity grid to analyze the makeup of the types of energy used to power the province over the last hour, and use that data to operate a virtual battery controller simulation that charges based on whether or not the grid is using more or less fossil fuels than average. 
 
 In addition to that, to use the same logic to capture the gas output of the grid from both the last 7 nights, and every night in February 2021, at 2 AM, and compare them to see the impact of new grid users like AI datacenters (this comparison is done in the Data Comparison section). Finally, to visualize both the makeup of the Ontario grid energy mix, and the February 2021 to last 7 nights comparison.
 
-**Technical Specifications:** I used Python for scraping data from the ISEO (Ontario's electricity grid operator) website, and C++ for handling the logic of the battery and the main file that uses the Python scraper to determine whether or not the battery should be charged. I used the pandas library to handle the data scraped from the IESO website. I also used matplotlib for visualization, generating the shown images below.
+## Technical Specifications:
+
+I used Python for scraping data from the ISEO (Ontario's electricity grid operator) website, and C++ for handling the logic of the battery and the main file that uses the Python scraper to determine whether or not the battery should be charged. I used the pandas library to handle the data scraped from the IESO website. I also used matplotlib for visualization, generating the shown images below.
 
 ## Data Comparison:
 
